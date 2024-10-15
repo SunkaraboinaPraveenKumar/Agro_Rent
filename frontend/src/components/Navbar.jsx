@@ -71,7 +71,7 @@ const Navbar = () => {
               onClick={() => navigate("/profile")}
             >
               <img
-                src="../src/assets/avatar.jpg"
+                src="/avatar.jpg"
                 alt=""
                 className="rounded-full w-10 object-cover"
               />
