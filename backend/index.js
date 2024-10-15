@@ -24,7 +24,7 @@ app.use(express.json());
 const corsOptions = {
   origin: [
     'http://localhost:5173', // Development URL
-    'https://agro-rent-oqfv.vercel.app/',
+    'https://agro-rent-oqfv.vercel.app',
     'https://agro-rent.vercel.app'
   ],
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
@@ -35,8 +35,8 @@ app.use(cors(corsOptions));
 // Route to handle file upload
 app.post('/upload', upload.single('avatar'), async (req, res) => {
   try {
-    const { name, mobile, password } = req.body;
-    const user = new User({ name, mobile, password, avatar: req.file.buffer });
+    const { name, email, password } = req.body;
+    const user = new User({ name, email, password, avatar: req.file.buffer });
     await user.save();
     res.status(201).send('File uploaded successfully');
   } catch (error) {

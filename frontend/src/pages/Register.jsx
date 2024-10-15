@@ -49,7 +49,7 @@ function Register() {
       <div className='p-2 px-8 w-full h-16 flex items-center bg-[#f7f7f8b8] fixed top-0 z-10 font-semibold'>
         <div className='flex align-center items-center justify-start gap-2 w-1/3'>
           <Link to="/products">
-            <img src="../src/assets/Logo2.png" alt="" className='rounded-full' width={"50px"} />
+            <img src="/Logo2.png" alt="" className='rounded-full' width={"50px"} />
           </Link>
           <h2 className='text-2xl text-zinc-800 font-bold'>AgroRent</h2>
         </div>
