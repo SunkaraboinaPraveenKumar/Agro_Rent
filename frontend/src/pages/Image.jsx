@@ -9,12 +9,13 @@ const ImageGallery = () => {
     fetchImages();
   }, []);
 
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
   const fetchImages = async () => {
     try {
       const machineId = '6612a3180befcf76a03dda13';
       const token = localStorage.getItem('token');
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-      const response = await axios.get(`http://localhost:3000/api/image/all?machineId=${machineId}`);
+      const response = await axios.get(`${BASE_URL}/api/image/all?machineId=${machineId}`);
       console.log(response);
       const  imgs  = response.data;
       console.log(imgs);

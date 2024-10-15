@@ -10,6 +10,8 @@ const handleFileChange = (event) => {
   setSelectedFiles(Array.from(event.target.files));
 };
 
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+
 const handleUpload = async () => {
   try {
     const formData = new FormData();
@@ -25,7 +27,7 @@ const handleUpload = async () => {
     axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
     // Send POST request to upload images
     console.log('formData:', formData);
-    const response = await axios.post('http://localhost:3000/api/image', formData, {
+    const response = await axios.post(`${BASE_URL}/api/image`, formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },

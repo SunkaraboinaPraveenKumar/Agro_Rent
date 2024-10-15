@@ -62,7 +62,7 @@ function Login() {
 
         {/* Big Image */}
         <div className='w-1/3 flex-col p-4 rounded-lg '>
-          <img src="../src/assets/hero.png" alt="Big Image" className="w-full rounded-lg" />
+          <img src="/hero.png" alt="Big Image" className="w-full rounded-lg" />
         </div>
       </div>
     </div>

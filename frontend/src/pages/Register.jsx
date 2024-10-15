@@ -105,7 +105,7 @@ function Register() {
 
         {/* Big Image */}
         <div className='w-1/3 flex-col p-4 rounded-lg '>
-          <img src="../src/assets/hero.png" alt="Big Image" className="w-full rounded-lg" />
+          <img src="/hero.png" alt="Big Image" className="w-full rounded-lg" />
           {isRegistered ? <button onClick={() => navigate('/login')} className="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600">Login</button> : null}
         </div>
       </div>

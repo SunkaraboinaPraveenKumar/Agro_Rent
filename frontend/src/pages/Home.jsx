@@ -23,7 +23,7 @@ function Home() {
       {/* Video Section------------------ */}
 
       <div style={{ marginTop: '64px' }}>
-        <video src="../src/assets/agrotech.mp4" autoPlay loop muted style={{ width: '100%', height: '80vh', objectFit: 'cover' }} />
+        <video src="/agrotech.mp4" autoPlay loop muted style={{ width: '100%', height: '80vh', objectFit: 'cover' }} />
       </div>
 
       {/* Hero Section------------------ */}
@@ -35,7 +35,7 @@ function Home() {
           <button className="bg-[#2a7f62] hover:bg-[#2f6b57] text-white font-bold py-2 px-4 mt-11 rounded"><Link to="/register">Get Started</Link></button>
           </div>
         <div className='w-1/2  ml-60'>
-          <img src="../src/assets/hero.png" alt="" style={{ right: '0px' }} />
+          <img src="/hero.png" alt="" style={{ right: '0px' }} />
         </div>
       </div>
 

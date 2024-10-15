@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex align-center items-center justify-start gap-2 w-1/3">
             <Link to="/products">
               <img
-                src="../src/assets/Logo2.png"
+                src="/Logo2.png"
                 alt=""
                 className="rounded-full"
                 width={"50px"}
@@ -89,7 +89,7 @@ const Navbar = () => {
         <nav className="navbar p-2 px-8 w-full h-16 flex items-center bg-[#f7f7f8b8] fixed top-0 z-10">
           <div className="flex align-center items-center justify-start gap-2 w-1/3">
             <img
-              src="../src/assets/Logo2.png"
+              src="/Logo2.png"
               alt=""
               className="rounded-full"
               width={"50px"}

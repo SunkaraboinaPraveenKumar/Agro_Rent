@@ -93,7 +93,7 @@ const Profile = () => {
                 {/* Profile Section */}
                 <div className='w-1/5'>
                     <div className='flex flex-col mx-3 px-1 py-10 mt-7 items-center bg-[#f0f0f0] rounded-xl shadow-md shadow-zinc-300'>
-                        <img src="../src/assets/avatar.jpg" alt="" className='rounded-full w-52 object-cover' />
+                        <img src="/avatar.jpg" alt="" className='rounded-full w-52 object-cover' />
                         {editMode ? (
                             <TextField
                                 value={editedUser.name}
