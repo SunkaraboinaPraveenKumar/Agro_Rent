@@ -13,15 +13,15 @@ const About = () => {
         <div className="container flex-col  mt-24 px-4">
           
             <div className='flex justify-between'>
-              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="../src/assets/mm.png" alt="" />
-              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="../src/assets/hero.png" alt="" />
+              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="/mm.png" alt="" />
+              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="/hero.png" alt="" />
             </div>
             <div className='pb-10 -mt-20'>
               <h2 className="text-8xl caret-transparent text-center font-semibold mb-4">Join Our Team</h2>
             </div>
             <div className='flex justify-evenly space-x-96'>
               <img className='h-40 w-40 object-cover rounded-lg shadow-sm border-4 border-green-300 hover:border-teal-500 transition duration-300' src="https://cdn.dribbble.com/users/3152125/screenshots/10763828/media/e96161bb4abf3695dc7dd3579a605343.gif" alt="" />
-              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="../src/assets/logo2.png" alt="" />
+              <img className='h-40 w-40 rounded-lg border-4 shadow-sm border-green-300 hover:border-teal-500 transition duration-300' src="/logo2.png" alt="" />
             </div>
           
         </div>

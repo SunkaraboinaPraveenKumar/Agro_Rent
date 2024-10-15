@@ -24,7 +24,8 @@ app.use(express.json());
 const corsOptions = {
   origin: [
     'http://localhost:5173', // Development URL
-    'https://agro-rent-oqfv.vercel.app/', // Production URL
+    'https://agro-rent-oqfv.vercel.app/',
+    'https://agro-rent.vercel.app'
   ],
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
