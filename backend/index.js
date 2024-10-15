@@ -31,6 +31,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Enable preflight requests for all routes
 
 // Route to handle file upload
 app.post('/upload', upload.single('avatar'), async (req, res) => {

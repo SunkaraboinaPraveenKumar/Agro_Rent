@@ -51,6 +51,7 @@ const getUser = asyncHandler(async (req, res) => {
 //@route POST /api/user/login
 //@access Public
 const loginUser = asyncHandler(async (req, res) => {
+    res.header('Access-Control-Allow-Origin', '*'); 
     const { email, password } = req.body;
     if(!email || !password){
         return res.status(400).json({message: 'Please fill all fields'});
