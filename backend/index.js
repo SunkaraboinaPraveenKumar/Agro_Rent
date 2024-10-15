@@ -27,6 +27,7 @@ const corsOptions = {
     'https://agro-rent-oqfv.vercel.app',
     'https://agro-rent.vercel.app'
   ],
+  credentials: true,
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
